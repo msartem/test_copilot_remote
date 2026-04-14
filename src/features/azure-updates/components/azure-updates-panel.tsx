@@ -40,7 +40,7 @@ export function AzureUpdatesPanel() {
     <Card>
       <CardHeader>
         <div className="flex items-center justify-between">
-          <CardTitle>Azure Updates</CardTitle>
+          <CardTitle>Azure Blog</CardTitle>
           {data && (
             <span className="text-xs text-[hsl(var(--muted-foreground))]">
               {filtered.length} update{filtered.length === 1 ? "" : "s"}

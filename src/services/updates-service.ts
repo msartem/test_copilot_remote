@@ -1,6 +1,7 @@
 import type { AzureUpdate } from "@/types";
 import type { FeedFetcher, UpdatesService } from "./interfaces";
 import { stripHtml } from "@/lib/format";
+import { AZURE_BLOG_FEED_URL } from "@/config/constants";
 
 export class AzureUpdatesService implements UpdatesService {
   private feedFetcher: FeedFetcher;
@@ -10,9 +11,7 @@ export class AzureUpdatesService implements UpdatesService {
   }
 
   async fetchUpdates(): Promise<AzureUpdate[]> {
-    const items = await this.feedFetcher.fetch(
-      "https://azure.microsoft.com/en-us/updates/feed/",
-    );
+    const items = await this.feedFetcher.fetch(AZURE_BLOG_FEED_URL);
 
     return items
       .map((item) => ({

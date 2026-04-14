@@ -1,6 +1,30 @@
-import type { FeedItem, Incident } from "@/types";
+import type { FeedItem, Incident, TimeRange } from "@/types";
 import type { FeedFetcher, IncidentService } from "./interfaces";
 import { stripHtml } from "@/lib/format";
+import { fetchWithCorsProxy } from "@/lib/cors-proxy";
+import { parseStatusHistoryHtml } from "@/lib/history-parser";
+import {
+  AZURE_STATUS_FEED_URL,
+  AZURE_STATUS_HISTORY_URL,
+} from "@/config/constants";
+
+export type { TimeRange } from "@/types";
+
+function getStartDate(range: TimeRange): string {
+  const now = new Date();
+  switch (range) {
+    case "6m":
+      now.setMonth(now.getMonth() - 6);
+      break;
+    case "1y":
+      now.setFullYear(now.getFullYear() - 1);
+      break;
+    case "2y":
+      now.setFullYear(now.getFullYear() - 2);
+      break;
+  }
+  return now.toISOString().split("T")[0] ?? "";
+}
 
 export class AzureIncidentService implements IncidentService {
   private feedFetcher: FeedFetcher;
@@ -9,18 +33,62 @@ export class AzureIncidentService implements IncidentService {
     this.feedFetcher = feedFetcher;
   }
 
-  async fetchIncidents(): Promise<Incident[]> {
-    const items = await this.feedFetcher.fetch(
-      "https://azure.status.microsoft/en-us/status/feed/",
-    );
+  async fetchIncidents(range?: TimeRange): Promise<Incident[]> {
+    const [rssIncidents, historyIncidents] = await Promise.allSettled([
+      this.fetchFromRss(),
+      this.fetchFromHistory(range ?? "6m"),
+    ]);
 
+    const rss =
+      rssIncidents.status === "fulfilled" ? rssIncidents.value : [];
+    const history =
+      historyIncidents.status === "fulfilled"
+        ? historyIncidents.value
+        : [];
+
+    return this.mergeAndDeduplicate(rss, history);
+  }
+
+  private async fetchFromRss(): Promise<Incident[]> {
+    const items = await this.feedFetcher.fetch(AZURE_STATUS_FEED_URL);
     return items
       .map((item) => this.mapToIncident(item))
-      .filter((incident): incident is Incident => incident !== null)
-      .sort(
-        (a, b) =>
-          new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime(),
-      );
+      .filter((incident): incident is Incident => incident !== null);
+  }
+
+  private async fetchFromHistory(range: TimeRange): Promise<Incident[]> {
+    const startDate = getStartDate(range);
+    const endDate = new Date().toISOString().split("T")[0] ?? "";
+    const url = `${AZURE_STATUS_HISTORY_URL}?startDate=${startDate}&endDate=${endDate}`;
+
+    const html = await fetchWithCorsProxy(url);
+    return parseStatusHistoryHtml(html);
+  }
+
+  private mergeAndDeduplicate(
+    rss: Incident[],
+    history: Incident[],
+  ): Incident[] {
+    const seen = new Set<string>();
+    const merged: Incident[] = [];
+
+    // RSS incidents take priority (they have live status)
+    for (const incident of rss) {
+      seen.add(incident.id);
+      merged.push(incident);
+    }
+
+    for (const incident of history) {
+      if (!seen.has(incident.id)) {
+        seen.add(incident.id);
+        merged.push(incident);
+      }
+    }
+
+    return merged.sort(
+      (a, b) =>
+        new Date(b.updatedAt).getTime() - new Date(a.updatedAt).getTime(),
+    );
   }
 
   private mapToIncident(item: FeedItem): Incident | null {

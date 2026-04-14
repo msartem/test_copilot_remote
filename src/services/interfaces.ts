@@ -1,11 +1,11 @@
-import type { FeedItem, AzureService, Incident, RegionHealth, AzureUpdate } from "@/types";
+import type { FeedItem, AzureService, Incident, RegionHealth, AzureUpdate, TimeRange } from "@/types";
 
 export interface StatusService {
   fetchServices(): Promise<AzureService[]>;
 }
 
 export interface IncidentService {
-  fetchIncidents(): Promise<Incident[]>;
+  fetchIncidents(range?: TimeRange): Promise<Incident[]>;
 }
 
 export interface RegionService {

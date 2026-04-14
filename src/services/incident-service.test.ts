@@ -2,6 +2,11 @@ import { describe, it, expect, vi } from "vitest";
 import { AzureIncidentService } from "@/services/incident-service";
 import type { FeedFetcher } from "@/services/interfaces";
 
+// Mock the CORS proxy to return empty HTML (no history incidents)
+vi.mock("@/lib/cors-proxy", () => ({
+  fetchWithCorsProxy: vi.fn().mockResolvedValue("<div></div>"),
+}));
+
 describe("AzureIncidentService", () => {
   it("maps feed items to incidents", async () => {
     const mockFetcher: FeedFetcher = {

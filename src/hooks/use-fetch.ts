@@ -4,6 +4,8 @@ import type { FetchState } from "@/types";
 interface UseFetchOptions {
   refreshInterval?: number;
   enabled?: boolean;
+  /** Serialized key — when this string changes, a re-fetch is triggered */
+  depsKey?: string;
 }
 
 interface InternalState<T> {
@@ -16,7 +18,8 @@ export function useFetch<T>(
   fetcher: () => Promise<T>,
   options: UseFetchOptions = {},
 ): FetchState<T> & { refetch: () => void; lastUpdated: Date | null } {
-  const { refreshInterval, enabled = true } = options;
+  const { refreshInterval, enabled = true, depsKey = "" } = options;
+
   const [internal, setInternal] = useState<InternalState<T>>({
     data: null,
     error: null,
@@ -57,7 +60,7 @@ export function useFetch<T>(
     return () => {
       cancelled = true;
     };
-  }, [enabled, internal.fetchId]);
+  }, [enabled, internal.fetchId, depsKey]);
 
   useEffect(() => {
     if (!enabled || !refreshInterval) return;

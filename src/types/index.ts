@@ -48,6 +48,8 @@ export interface FeedItem {
 
 export type Theme = "light" | "dark";
 
+export type TimeRange = "6m" | "1y" | "2y";
+
 export interface FetchState<T> {
   data: T | null;
   loading: boolean;
