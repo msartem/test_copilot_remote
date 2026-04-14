@@ -1,4 +1,4 @@
-import { ThemeProvider } from "@/hooks/use-theme";
+import { ThemeProvider } from "@/hooks/theme-provider";
 import { AppLayout } from "@/components/layout/app-layout";
 import { Dashboard } from "@/components/layout/dashboard";
 

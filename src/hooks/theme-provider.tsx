@@ -1,20 +1,12 @@
 import {
-  createContext,
   useCallback,
-  useContext,
   useEffect,
   useState,
   type ReactNode,
 } from "react";
 import type { Theme } from "@/types";
 import { THEME_STORAGE_KEY } from "@/config/constants";
-
-interface ThemeContextValue {
-  theme: Theme;
-  toggleTheme: () => void;
-}
-
-const ThemeContext = createContext<ThemeContextValue | null>(null);
+import { ThemeContext } from "./theme-context";
 
 function getInitialTheme(): Theme {
   const stored = localStorage.getItem(THEME_STORAGE_KEY);
@@ -49,12 +41,4 @@ export function ThemeProvider({ children }: ThemeProviderProps) {
       {children}
     </ThemeContext.Provider>
   );
-}
-
-export function useTheme(): ThemeContextValue {
-  const context = useContext(ThemeContext);
-  if (!context) {
-    throw new Error("useTheme must be used within a ThemeProvider");
-  }
-  return context;
 }
