@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-14T13:33:00.215Z",
+  "fetchedAt": "2026-04-14T18:57:41.989Z",
   "statusFeed": [],
   "blogUpdates": [
     {
@@ -90,8 +90,8 @@
       "description": "Watch our 'Azure Incident Retrospective' video about this incident:&nbsp; https://aka.ms/air/8GCS-858",
       "severity": "warning",
       "status": "resolved",
-      "startedAt": "2026-03-09T04:00:00.000Z",
-      "updatedAt": "2026-03-09T04:00:00.000Z",
+      "startedAt": "2026-03-09T00:00:00.000Z",
+      "updatedAt": "2026-03-09T00:00:00.000Z",
       "affectedServices": [
         "Azure OpenAI",
         "GPT-5.2 availability degradation in 7 regions"
@@ -104,8 +104,8 @@
       "description": "Watch our 'Azure Incident Retrospective' video about this incident: https://aka.ms/air/_SVS-5_G",
       "severity": "critical",
       "status": "resolved",
-      "startedAt": "2026-02-07T05:00:00.000Z",
-      "updatedAt": "2026-02-07T05:00:00.000Z",
+      "startedAt": "2026-02-07T00:00:00.000Z",
+      "updatedAt": "2026-02-07T00:00:00.000Z",
       "affectedServices": [
         "Power event impacting multiple services",
         "West US"
@@ -118,8 +118,8 @@
       "description": "Watch our 'Azure Incident Retrospective' video about this incident: https://aka.ms/air/FNJ8-VQZ",
       "severity": "critical",
       "status": "resolved",
-      "startedAt": "2026-02-02T05:00:00.000Z",
-      "updatedAt": "2026-02-02T05:00:00.000Z",
+      "startedAt": "2026-02-02T00:00:00.000Z",
+      "updatedAt": "2026-02-02T00:00:00.000Z",
       "affectedServices": [
         "Virtual Machines",
         "Managed identities for Azure resources",
@@ -134,8 +134,8 @@
       "description": "Watch our 'Azure Incident Retrospective' video about this incident: https://aka.ms/air/FV31-PQG",
       "severity": "informational",
       "status": "resolved",
-      "startedAt": "2025-12-22T05:00:00.000Z",
-      "updatedAt": "2025-12-22T05:00:00.000Z",
+      "startedAt": "2025-12-22T00:00:00.000Z",
+      "updatedAt": "2025-12-22T00:00:00.000Z",
       "affectedServices": [
         "Entra Privileged Identity Management",
         "Customers experiencing API failures"
@@ -148,8 +148,8 @@
       "description": "What happened?",
       "severity": "informational",
       "status": "resolved",
-      "startedAt": "2025-12-08T05:00:00.000Z",
-      "updatedAt": "2025-12-08T05:00:00.000Z",
+      "startedAt": "2025-12-08T00:00:00.000Z",
+      "updatedAt": "2025-12-08T00:00:00.000Z",
       "affectedServices": [
         "Azure Resource Manager",
         "Service management failures affecting Azure Government"
@@ -162,8 +162,8 @@
       "description": "What happened?",
       "severity": "informational",
       "status": "resolved",
-      "startedAt": "2025-12-08T05:00:00.000Z",
-      "updatedAt": "2025-12-08T05:00:00.000Z",
+      "startedAt": "2025-12-08T00:00:00.000Z",
+      "updatedAt": "2025-12-08T00:00:00.000Z",
       "affectedServices": [
         "Azure Resource Manager",
         "Service management failures affecting Azure in China"
@@ -176,8 +176,8 @@
       "description": "Watch our 'Azure Incident Retrospective' video about this incident: https://aka.ms/air/2LGD-9VG",
       "severity": "critical",
       "status": "resolved",
-      "startedAt": "2025-11-05T05:00:00.000Z",
-      "updatedAt": "2025-11-05T05:00:00.000Z",
+      "startedAt": "2025-11-05T00:00:00.000Z",
+      "updatedAt": "2025-11-05T00:00:00.000Z",
       "affectedServices": [
         "Thermal event impacting multiple services in AZ01",
         "West Europe"
@@ -190,8 +190,8 @@
       "description": "Read Azure Front Door's blog series in making progress on key resilience repairs: https://aka.ms/AzureFrontDoor/Resiliency-Part1",
       "severity": "critical",
       "status": "resolved",
-      "startedAt": "2025-10-29T04:00:00.000Z",
-      "updatedAt": "2025-10-29T04:00:00.000Z",
+      "startedAt": "2025-10-29T00:00:00.000Z",
+      "updatedAt": "2025-10-29T00:00:00.000Z",
       "affectedServices": [
         "Azure Front Door",
         "Connectivity issues across multiple regions"
@@ -204,8 +204,8 @@
       "description": "Watch our 'Azure Incident Retrospective' video about this incident: https://aka.ms/air/QKNQ-PB8",
       "severity": "critical",
       "status": "resolved",
-      "startedAt": "2025-10-09T04:00:00.000Z",
-      "updatedAt": "2025-10-09T04:00:00.000Z",
+      "startedAt": "2025-10-09T00:00:00.000Z",
+      "updatedAt": "2025-10-09T00:00:00.000Z",
       "affectedServices": [
         "Azure Portal and other management portals",
         "Access issues in multiple regions"
@@ -218,8 +218,8 @@
       "description": "Watch our 'Azure Incident Retrospective' video about this incident: https://aka.ms/AIR/QNBQ-5W8",
       "severity": "critical",
       "status": "resolved",
-      "startedAt": "2025-10-09T04:00:00.000Z",
-      "updatedAt": "2025-10-09T04:00:00.000Z",
+      "startedAt": "2025-10-09T00:00:00.000Z",
+      "updatedAt": "2025-10-09T00:00:00.000Z",
       "affectedServices": [
         "Azure Front Door",
         "Access issues in multiple regions"
