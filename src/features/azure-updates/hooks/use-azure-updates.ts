@@ -1,9 +1,8 @@
 import { useFetch } from "@/hooks/use-fetch";
-import { AzureUpdatesService, RssFeedFetcher } from "@/services";
+import { StaticUpdatesService } from "@/services";
 import { AUTO_REFRESH_INTERVAL_MS } from "@/config/constants";
 
-const feedFetcher = new RssFeedFetcher();
-const updatesService = new AzureUpdatesService(feedFetcher);
+const updatesService = new StaticUpdatesService();
 
 export function useAzureUpdates() {
   return useFetch(() => updatesService.fetchUpdates(), {

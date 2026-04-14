@@ -1,0 +1,230 @@
+{
+  "fetchedAt": "2026-04-14T13:33:00.215Z",
+  "statusFeed": [],
+  "blogUpdates": [
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50337",
+      "title": "Microsoft named a Leader in The Forrester Wave™ for Sovereign Cloud Platforms",
+      "summary": "Microsoft is named a Leader in The Forrester Wave™ for Sovereign Cloud Platforms, recognizing Microsoft Sovereign Cloud leadership in evolving sovereignty needs. The post Microsoft named a Leader in The Forrester Wave™ for Sovereign Cloud Platforms appeared first on Microsoft Azure Blog .",
+      "publishedAt": "Thu, 09 Apr 2026 19:00:00 +0000",
+      "category": "Hybrid + multicloud",
+      "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-forrester-wave-for-sovereign-cloud-platforms/"
+    },
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50303",
+      "title": "How Drasi used GitHub Copilot to find documentation bugs",
+      "summary": "How Microsoft uses AI agents and Drasi to keep open‑source documentation accurate and working. The post How Drasi used GitHub Copilot to find documentation bugs appeared first on Microsoft Azure Blog .",
+      "publishedAt": "Thu, 09 Apr 2026 15:05:00 +0000",
+      "category": "DevOps",
+      "link": "https://opensource.microsoft.com/blog/2026/04/09/how-drasi-used-github-copilot-to-find-documentation-bugs/"
+    },
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50201",
+      "title": "Cloud Cost Optimization: How to maximize ROI from AI, manage costs, and unlock real business value",
+      "summary": "Get practical strategies and best practices to help you plan, design, and manage AI investments for sustainable value and efficiency. The post Cloud Cost Optimization: How to maximize ROI from AI, manage costs, and unlock real business value appeared first on Microsoft Azure Blog .",
+      "publishedAt": "Wed, 08 Apr 2026 16:00:00 +0000",
+      "category": "AI + machine learning",
+      "link": "https://azure.microsoft.com/en-us/blog/cloud-cost-optimization-how-to-maximize-roi-from-ai-manage-costs-and-unlock-real-business-value/"
+    },
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50113",
+      "title": "Azure IaaS: Keep critical applications running with built-in resiliency at scale",
+      "summary": "Azure IaaS provides foundational capabilities across compute, storage, and networking to help organizations stay resilient. The post Azure IaaS: Keep critical applications running with built-in resiliency at scale appeared first on Microsoft Azure Blog .",
+      "publishedAt": "Wed, 01 Apr 2026 16:00:00 +0000",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/en-us/blog/azure-iaas-keep-critical-applications-running-with-built-in-resiliency-at-scale/"
+    },
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50125",
+      "title": "Building sovereign AI at the edge: Microsoft and Armada collaborate to deliver Azure Local on Galleon modular datacenters",
+      "summary": "Explore how Microsoft and Armada bring sovereign AI to the edge with Azure Local, enabling secure, resilient workloads in disconnected and regulated environments. The post Building sovereign AI at the edge: Microsoft and Armada collaborate to deliver Azure Local on Galleon modular datacenters appear",
+      "publishedAt": "Tue, 31 Mar 2026 16:00:00 +0000",
+      "category": "Hybrid + multicloud",
+      "link": "https://azure.microsoft.com/en-us/blog/building-sovereign-ai-at-the-edge-microsoft-and-armada-collaborate-to-deliver-azure-local-on-galleon-modular-datacenters/"
+    },
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50154",
+      "title": "Navigating digital sovereignty at the frontier of transformation",
+      "summary": "Digital sovereignty has become a practical leadership discipline grounded in risk management, continuity planning, and long-term accountability. The post Navigating digital sovereignty at the frontier of transformation appeared first on Microsoft Azure Blog .",
+      "publishedAt": "Mon, 30 Mar 2026 21:27:39 +0000",
+      "category": "Hybrid + multicloud",
+      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2026/03/25/navigating-digital-sovereignty-at-the-frontier-of-transformation/"
+    },
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50088",
+      "title": "Microsoft named a Leader in 2026 Gartner® Magic Quadrant™ for Integration Platform as a Service",
+      "summary": "Read why Microsoft was named a Leader for integration services in the 2026 Gartner® Magic Quadrant™ for Integration Platform as a Service. The post Microsoft named a Leader in 2026 Gartner® Magic Quadrant™ for Integration Platform as a Service appeared first on Microsoft Azure Blog .",
+      "publishedAt": "Mon, 30 Mar 2026 16:00:00 +0000",
+      "category": "Integration",
+      "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-2026-gartner-magic-quadrant-for-integration-platform-as-a-service/"
+    },
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50094",
+      "title": "AI for nuclear energy: Powering an intelligent, resilient future",
+      "summary": "To break the infrastructure bottleneck and shift the industry from ambition to delivery, Microsoft is announcing an AI for nuclear collaboration with NVIDIA, to provide end-to-end tools that streamline permitting, accelerate design, and optimize operations across the industry. The post AI for nuclea",
+      "publishedAt": "Wed, 25 Mar 2026 15:00:00 +0000",
+      "category": "AI + machine learning",
+      "link": "https://www.microsoft.com/en-us/industry/blog/energy-and-resources/2026/03/24/ai-for-nuclear-energy-powering-an-intelligent-resilient-future/"
+    },
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50082",
+      "title": "What’s new with Microsoft in open-source and Kubernetes at KubeCon + CloudNativeCon Europe 2026",
+      "summary": "At KubeCon + CloudNativeCon Europe 2026 in Amsterdam, we're making announcements that reflect the goal of bringing the operational maturity of Kubernetes to today's workloads and demands. The post What’s new with Microsoft in open-source and Kubernetes at KubeCon + CloudNativeCon Europe 2026 appeare",
+      "publishedAt": "Tue, 24 Mar 2026 07:05:00 +0000",
+      "category": "Compute",
+      "link": "https://opensource.microsoft.com/blog/2026/03/24/whats-new-with-microsoft-in-open-source-and-kubernetes-at-kubecon-cloudnativecon-europe-2026/"
+    },
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50042",
+      "title": "Advancing agentic AI with Microsoft databases across a unified data estate",
+      "summary": "Built on a consistent Microsoft SQL foundation from on premises to the cloud, Azure SQL brings AI capabilities directly into your database experience. The post Advancing agentic AI with Microsoft databases across a unified data estate appeared first on Microsoft Azure Blog .",
+      "publishedAt": "Wed, 18 Mar 2026 12:50:00 +0000",
+      "category": "Databases",
+      "link": "https://www.microsoft.com/en-us/sql-server/blog/2026/03/18/advancing-agentic-ai-with-microsoft-databases-across-a-unified-data-estate/"
+    }
+  ],
+  "incidentHistory": [
+    {
+      "id": "8GCS-858",
+      "title": "Post Incident Review (PIR) – Azure OpenAI – GPT-5.2 availability degradation in 7 regions",
+      "description": "Watch our 'Azure Incident Retrospective' video about this incident:&nbsp; https://aka.ms/air/8GCS-858",
+      "severity": "warning",
+      "status": "resolved",
+      "startedAt": "2026-03-09T04:00:00.000Z",
+      "updatedAt": "2026-03-09T04:00:00.000Z",
+      "affectedServices": [
+        "Azure OpenAI",
+        "GPT-5.2 availability degradation in 7 regions"
+      ],
+      "link": "https://aka.ms/air/8GCS-858"
+    },
+    {
+      "id": "_SVS-5_G",
+      "title": "Post Incident Review (PIR) – Power event impacting multiple services – West US",
+      "description": "Watch our 'Azure Incident Retrospective' video about this incident: https://aka.ms/air/_SVS-5_G",
+      "severity": "critical",
+      "status": "resolved",
+      "startedAt": "2026-02-07T05:00:00.000Z",
+      "updatedAt": "2026-02-07T05:00:00.000Z",
+      "affectedServices": [
+        "Power event impacting multiple services",
+        "West US"
+      ],
+      "link": "https://aka.ms/air/_SVS-5_G"
+    },
+    {
+      "id": "FNJ8-VQZ",
+      "title": "Post Incident Review (PIR) – Virtual Machines, Managed identities for Azure resources, and dependent services – Service management issues in multiple regions",
+      "description": "Watch our 'Azure Incident Retrospective' video about this incident: https://aka.ms/air/FNJ8-VQZ",
+      "severity": "critical",
+      "status": "resolved",
+      "startedAt": "2026-02-02T05:00:00.000Z",
+      "updatedAt": "2026-02-02T05:00:00.000Z",
+      "affectedServices": [
+        "Virtual Machines",
+        "Managed identities for Azure resources",
+        "and dependent services",
+        "Service management issues in multiple regions"
+      ],
+      "link": "https://aka.ms/air/FNJ8-VQZ"
+    },
+    {
+      "id": "FV31-PQG",
+      "title": "Post Incident Review (PIR) – Entra Privileged Identity Management – Customers experiencing API failures",
+      "description": "Watch our 'Azure Incident Retrospective' video about this incident: https://aka.ms/air/FV31-PQG",
+      "severity": "informational",
+      "status": "resolved",
+      "startedAt": "2025-12-22T05:00:00.000Z",
+      "updatedAt": "2025-12-22T05:00:00.000Z",
+      "affectedServices": [
+        "Entra Privileged Identity Management",
+        "Customers experiencing API failures"
+      ],
+      "link": "https://aka.ms/air/FV31-PQG"
+    },
+    {
+      "id": "ML7_-DWG",
+      "title": "Post Incident Review (PIR) – Azure Resource Manager – Service management failures affecting Azure Government",
+      "description": "What happened?",
+      "severity": "informational",
+      "status": "resolved",
+      "startedAt": "2025-12-08T05:00:00.000Z",
+      "updatedAt": "2025-12-08T05:00:00.000Z",
+      "affectedServices": [
+        "Azure Resource Manager",
+        "Service management failures affecting Azure Government"
+      ],
+      "link": "https://azure.status.microsoft/en-us/status/history/#ML7_-DWG"
+    },
+    {
+      "id": "JSNV-FBZ",
+      "title": "Post Incident Review (PIR) – Azure Resource Manager – Service management failures affecting Azure in China",
+      "description": "What happened?",
+      "severity": "informational",
+      "status": "resolved",
+      "startedAt": "2025-12-08T05:00:00.000Z",
+      "updatedAt": "2025-12-08T05:00:00.000Z",
+      "affectedServices": [
+        "Azure Resource Manager",
+        "Service management failures affecting Azure in China"
+      ],
+      "link": "https://azure.status.microsoft/en-us/status/history/#JSNV-FBZ"
+    },
+    {
+      "id": "2LGD-9VG",
+      "title": "Post Incident Review (PIR) – Thermal event impacting multiple services in AZ01 – West Europe",
+      "description": "Watch our 'Azure Incident Retrospective' video about this incident: https://aka.ms/air/2LGD-9VG",
+      "severity": "critical",
+      "status": "resolved",
+      "startedAt": "2025-11-05T05:00:00.000Z",
+      "updatedAt": "2025-11-05T05:00:00.000Z",
+      "affectedServices": [
+        "Thermal event impacting multiple services in AZ01",
+        "West Europe"
+      ],
+      "link": "https://aka.ms/air/2LGD-9VG"
+    },
+    {
+      "id": "YKYN-BWZ",
+      "title": "Post Incident Review (PIR) – Azure Front Door – Connectivity issues across multiple regions",
+      "description": "Read Azure Front Door's blog series in making progress on key resilience repairs: https://aka.ms/AzureFrontDoor/Resiliency-Part1",
+      "severity": "critical",
+      "status": "resolved",
+      "startedAt": "2025-10-29T04:00:00.000Z",
+      "updatedAt": "2025-10-29T04:00:00.000Z",
+      "affectedServices": [
+        "Azure Front Door",
+        "Connectivity issues across multiple regions"
+      ],
+      "link": "https://aka.ms/AzureFrontDoor/Resiliency-Part1"
+    },
+    {
+      "id": "QKNQ-PB8",
+      "title": "Post Incident Review (PIR) – Azure Portal and other management portals – Access issues in multiple regions",
+      "description": "Watch our 'Azure Incident Retrospective' video about this incident: https://aka.ms/air/QKNQ-PB8",
+      "severity": "critical",
+      "status": "resolved",
+      "startedAt": "2025-10-09T04:00:00.000Z",
+      "updatedAt": "2025-10-09T04:00:00.000Z",
+      "affectedServices": [
+        "Azure Portal and other management portals",
+        "Access issues in multiple regions"
+      ],
+      "link": "https://aka.ms/air/QKNQ-PB8"
+    },
+    {
+      "id": "QNBQ-5W8",
+      "title": "Post Incident Review (PIR) – Azure Front Door – Access issues in multiple regions",
+      "description": "Watch our 'Azure Incident Retrospective' video about this incident: https://aka.ms/AIR/QNBQ-5W8",
+      "severity": "critical",
+      "status": "resolved",
+      "startedAt": "2025-10-09T04:00:00.000Z",
+      "updatedAt": "2025-10-09T04:00:00.000Z",
+      "affectedServices": [
+        "Azure Front Door",
+        "Access issues in multiple regions"
+      ],
+      "link": "https://aka.ms/AIR/QNBQ-5W8"
+    }
+  ]
+}

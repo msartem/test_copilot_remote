@@ -3,6 +3,13 @@ export { AzureIncidentService } from "./incident-service";
 export { AzureRegionService } from "./region-service";
 export { AzureUpdatesService } from "./updates-service";
 export { RssFeedFetcher } from "./feed-fetcher";
+export {
+  StaticStatusService,
+  StaticIncidentService,
+  StaticRegionService,
+  StaticUpdatesService,
+  getLastFetchedAt,
+} from "./static-data-service";
 export type {
   StatusService,
   IncidentService,

@@ -1,9 +1,8 @@
 import { useFetch } from "@/hooks/use-fetch";
-import { AzureRegionService, RssFeedFetcher } from "@/services";
+import { StaticRegionService } from "@/services";
 import { AUTO_REFRESH_INTERVAL_MS } from "@/config/constants";
 
-const feedFetcher = new RssFeedFetcher();
-const regionService = new AzureRegionService(feedFetcher);
+const regionService = new StaticRegionService();
 
 export function useRegionStatus() {
   return useFetch(() => regionService.fetchRegions(), {

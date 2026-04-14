@@ -1,11 +1,10 @@
 import { useMemo } from "react";
 import { useFetch } from "@/hooks/use-fetch";
-import { AzureStatusService, RssFeedFetcher } from "@/services";
+import { StaticStatusService } from "@/services";
 import { AUTO_REFRESH_INTERVAL_MS } from "@/config/constants";
 import type { AzureService } from "@/types";
 
-const feedFetcher = new RssFeedFetcher();
-const statusService = new AzureStatusService(feedFetcher);
+const statusService = new StaticStatusService();
 
 export function useServiceHealth() {
   const result = useFetch(() => statusService.fetchServices(), {

@@ -1,11 +1,10 @@
 import { useCallback } from "react";
 import { useFetch } from "@/hooks/use-fetch";
-import { AzureIncidentService, RssFeedFetcher } from "@/services";
+import { StaticIncidentService } from "@/services";
 import { AUTO_REFRESH_INTERVAL_MS } from "@/config/constants";
 import type { TimeRange } from "@/types";
 
-const feedFetcher = new RssFeedFetcher();
-const incidentService = new AzureIncidentService(feedFetcher);
+const incidentService = new StaticIncidentService();
 
 export function useIncidents(range: TimeRange = "6m") {
   const fetcher = useCallback(
