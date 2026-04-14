@@ -23,7 +23,10 @@ function getStartDate(range: TimeRange): string {
       now.setFullYear(now.getFullYear() - 2);
       break;
   }
-  return now.toISOString().split("T")[0] ?? "";
+  const y = now.getFullYear();
+  const m = String(now.getMonth() + 1).padStart(2, "0");
+  const d = String(now.getDate()).padStart(2, "0");
+  return `${y}${m}${d}`;
 }
 
 export class AzureIncidentService implements IncidentService {
@@ -58,8 +61,7 @@ export class AzureIncidentService implements IncidentService {
 
   private async fetchFromHistory(range: TimeRange): Promise<Incident[]> {
     const startDate = getStartDate(range);
-    const endDate = new Date().toISOString().split("T")[0] ?? "";
-    const url = `${AZURE_STATUS_HISTORY_URL}?startDate=${startDate}&endDate=${endDate}`;
+    const url = `${AZURE_STATUS_HISTORY_URL}?service=all&region=all&startDate=${startDate}`;
 
     const html = await fetchWithCorsProxy(url);
     return parseStatusHistoryHtml(html);
