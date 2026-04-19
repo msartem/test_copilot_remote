@@ -1,23 +1,7 @@
 {
-  "fetchedAt": "2026-04-19T07:05:57.247Z",
+  "fetchedAt": "2026-04-19T12:35:13.932Z",
   "statusFeed": [],
   "blogUpdates": [
-    {
-      "id": "https://azure.microsoft.com/en-us/blog/?p=50297",
-      "title": "Cloud Cost Optimization: Principles that still matter",
-      "summary": "Discover how cloud cost optimization adapts in the age of AI, with best practices for managing spend, improving efficiency, and maximizing value. The post Cloud Cost Optimization: Principles that still matter appeared first on Microsoft Azure Blog .",
-      "publishedAt": "Wed, 15 Apr 2026 16:00:00 +0000",
-      "category": "AI + machine learning",
-      "link": "https://azure.microsoft.com/en-us/blog/cloud-cost-optimization-principles-that-still-matter/"
-    },
-    {
-      "id": "https://azure.microsoft.com/en-us/blog/?p=50370",
-      "title": "Optimize object storage costs automatically with smart tier—now generally available",
-      "summary": "By continuously optimizing data placement, smart tier ensures your storage costs are aligned with actual usage. The post Optimize object storage costs automatically with smart tier—now generally available appeared first on Microsoft Azure Blog .",
-      "publishedAt": "Tue, 14 Apr 2026 15:00:00 +0000",
-      "category": "Storage",
-      "link": "https://azure.microsoft.com/en-us/blog/optimize-object-storage-costs-automatically-with-smart-tier-now-generally-available/"
-    },
     {
       "id": "https://azure.microsoft.com/en-us/blog/?p=50337",
       "title": "Microsoft named a Leader in The Forrester Wave™ for Sovereign Cloud Platforms",
@@ -59,7 +43,7 @@
       "link": "https://azure.microsoft.com/en-us/blog/building-sovereign-ai-at-the-edge-microsoft-and-armada-collaborate-to-deliver-azure-local-on-galleon-modular-datacenters/"
     },
     {
-      "id": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2026/03/25/navigating-digital-sovereignty-at-the-frontier-of-transformation/",
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50154",
       "title": "Navigating digital sovereignty at the frontier of transformation",
       "summary": "Digital sovereignty has become a practical leadership discipline grounded in risk management, continuity planning, and long-term accountability. The post Navigating digital sovereignty at the frontier of transformation appeared first on Microsoft Azure Blog .",
       "publishedAt": "Mon, 30 Mar 2026 21:27:39 +0000",
@@ -81,6 +65,22 @@
       "publishedAt": "Wed, 25 Mar 2026 15:00:00 +0000",
       "category": "AI + machine learning",
       "link": "https://www.microsoft.com/en-us/industry/blog/energy-and-resources/2026/03/24/ai-for-nuclear-energy-powering-an-intelligent-resilient-future/"
+    },
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50082",
+      "title": "What’s new with Microsoft in open-source and Kubernetes at KubeCon + CloudNativeCon Europe 2026",
+      "summary": "At KubeCon + CloudNativeCon Europe 2026 in Amsterdam, we're making announcements that reflect the goal of bringing the operational maturity of Kubernetes to today's workloads and demands. The post What’s new with Microsoft in open-source and Kubernetes at KubeCon + CloudNativeCon Europe 2026 appeare",
+      "publishedAt": "Tue, 24 Mar 2026 07:05:00 +0000",
+      "category": "Compute",
+      "link": "https://opensource.microsoft.com/blog/2026/03/24/whats-new-with-microsoft-in-open-source-and-kubernetes-at-kubecon-cloudnativecon-europe-2026/"
+    },
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50042",
+      "title": "Advancing agentic AI with Microsoft databases across a unified data estate",
+      "summary": "Built on a consistent Microsoft SQL foundation from on premises to the cloud, Azure SQL brings AI capabilities directly into your database experience. The post Advancing agentic AI with Microsoft databases across a unified data estate appeared first on Microsoft Azure Blog .",
+      "publishedAt": "Wed, 18 Mar 2026 12:50:00 +0000",
+      "category": "Databases",
+      "link": "https://www.microsoft.com/en-us/sql-server/blog/2026/03/18/advancing-agentic-ai-with-microsoft-databases-across-a-unified-data-estate/"
     }
   ],
   "incidentHistory": [
