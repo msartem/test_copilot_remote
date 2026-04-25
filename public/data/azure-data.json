@@ -1,15 +1,7 @@
 {
-  "fetchedAt": "2026-04-25T01:19:11.101Z",
+  "fetchedAt": "2026-04-25T07:00:59.967Z",
   "statusFeed": [],
   "blogUpdates": [
-    {
-      "id": "https://azure.microsoft.com/en-us/blog/?p=50611",
-      "title": "OpenAI’s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform",
-      "summary": "OpenAI’s GPT-5.5 will be generally available in Microsoft Foundry, bringing OpenAI’s latest frontier model to Azure and the enterprise teams building agents for real production work. The post OpenAI’s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform appeared first ",
-      "publishedAt": "Thu, 23 Apr 2026 22:00:00 +0000",
-      "category": "AI + machine learning",
-      "link": "https://azure.microsoft.com/en-us/blog/openais-gpt-5-5-in-microsoft-foundry-frontier-intelligence-on-an-enterprise-ready-platform/"
-    },
     {
       "id": "https://azure.microsoft.com/en-us/blog/?p=50477",
       "title": "Microsoft Discovery: Advancing agentic R&#038;D at scale",
@@ -81,9 +73,28 @@
       "publishedAt": "Tue, 31 Mar 2026 16:00:00 +0000",
       "category": "Hybrid + multicloud",
       "link": "https://azure.microsoft.com/en-us/blog/building-sovereign-ai-at-the-edge-microsoft-and-armada-collaborate-to-deliver-azure-local-on-galleon-modular-datacenters/"
+    },
+    {
+      "id": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2026/03/25/navigating-digital-sovereignty-at-the-frontier-of-transformation/",
+      "title": "Navigating digital sovereignty at the frontier of transformation",
+      "summary": "Digital sovereignty has become a practical leadership discipline grounded in risk management, continuity planning, and long-term accountability. The post Navigating digital sovereignty at the frontier of transformation appeared first on Microsoft Azure Blog .",
+      "publishedAt": "Mon, 30 Mar 2026 21:27:39 +0000",
+      "category": "Hybrid + multicloud",
+      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2026/03/25/navigating-digital-sovereignty-at-the-frontier-of-transformation/"
     }
   ],
   "incidentHistory": [
+    {
+      "id": "5GP8-W0G",
+      "title": "Mitigated - Multiservice impact for Azure Workloads in East US",
+      "description": "What happened?",
+      "severity": "informational",
+      "status": "resolved",
+      "startedAt": "2026-04-24T00:00:00.000Z",
+      "updatedAt": "2026-04-24T00:00:00.000Z",
+      "affectedServices": [],
+      "link": "https://azure.status.microsoft/en-us/status/history/#5GP8-W0G"
+    },
     {
       "id": "8GCS-858",
       "title": "Post Incident Review (PIR) – Azure OpenAI – GPT-5.2 availability degradation in 7 regions",
@@ -211,20 +222,6 @@
         "Access issues in multiple regions"
       ],
       "link": "https://aka.ms/air/QKNQ-PB8"
-    },
-    {
-      "id": "QNBQ-5W8",
-      "title": "Post Incident Review (PIR) – Azure Front Door – Access issues in multiple regions",
-      "description": "Watch our 'Azure Incident Retrospective' video about this incident: https://aka.ms/AIR/QNBQ-5W8",
-      "severity": "critical",
-      "status": "resolved",
-      "startedAt": "2025-10-09T00:00:00.000Z",
-      "updatedAt": "2025-10-09T00:00:00.000Z",
-      "affectedServices": [
-        "Azure Front Door",
-        "Access issues in multiple regions"
-      ],
-      "link": "https://aka.ms/AIR/QNBQ-5W8"
     }
   ]
 }
