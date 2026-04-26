@@ -1,7 +1,31 @@
 {
-  "fetchedAt": "2026-04-26T01:28:43.959Z",
+  "fetchedAt": "2026-04-26T07:15:22.760Z",
   "statusFeed": [],
   "blogUpdates": [
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50611",
+      "title": "OpenAI’s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform",
+      "summary": "OpenAI’s GPT-5.5 will be generally available in Microsoft Foundry, bringing OpenAI’s latest frontier model to Azure and the enterprise teams building agents for real production work. The post OpenAI’s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform appeared first ",
+      "publishedAt": "Thu, 23 Apr 2026 22:00:00 +0000",
+      "category": "AI + machine learning",
+      "link": "https://azure.microsoft.com/en-us/blog/openais-gpt-5-5-in-microsoft-foundry-frontier-intelligence-on-an-enterprise-ready-platform/"
+    },
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50477",
+      "title": "Microsoft Discovery: Advancing agentic R&#038;D at scale",
+      "summary": "Expanded preview access for Microsoft Discovery brings new enterprise-grade, agentic AI capabilities for research and development teams. The post Microsoft Discovery: Advancing agentic R&amp;D at scale appeared first on Microsoft Azure Blog .",
+      "publishedAt": "Wed, 22 Apr 2026 16:00:00 +0000",
+      "category": "AI + machine learning",
+      "link": "https://azure.microsoft.com/en-us/blog/microsoft-discovery-advancing-agentic-rd-at-scale/"
+    },
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50013",
+      "title": "Introducing Azure Accelerate for Databases: Modernize your data for AI with experts and investments",
+      "summary": "Azure Accelerate for Databases helps organizations modernize their databases and build AI-ready capabilities. The post Introducing Azure Accelerate for Databases: Modernize your data for AI with experts and investments appeared first on Microsoft Azure Blog .",
+      "publishedAt": "Wed, 22 Apr 2026 00:00:00 +0000",
+      "category": "Databases",
+      "link": "https://azure.microsoft.com/en-us/blog/introducing-azure-accelerate-for-databases-modernize-your-data-for-ai-with-experts-and-investments/"
+    },
     {
       "id": "https://azure.microsoft.com/en-us/blog/?p=50297",
       "title": "Cloud Cost Optimization: Principles that still matter",
@@ -57,30 +81,6 @@
       "publishedAt": "Tue, 31 Mar 2026 16:00:00 +0000",
       "category": "Hybrid + multicloud",
       "link": "https://azure.microsoft.com/en-us/blog/building-sovereign-ai-at-the-edge-microsoft-and-armada-collaborate-to-deliver-azure-local-on-galleon-modular-datacenters/"
-    },
-    {
-      "id": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2026/03/25/navigating-digital-sovereignty-at-the-frontier-of-transformation/",
-      "title": "Navigating digital sovereignty at the frontier of transformation",
-      "summary": "Digital sovereignty has become a practical leadership discipline grounded in risk management, continuity planning, and long-term accountability. The post Navigating digital sovereignty at the frontier of transformation appeared first on Microsoft Azure Blog .",
-      "publishedAt": "Mon, 30 Mar 2026 21:27:39 +0000",
-      "category": "Hybrid + multicloud",
-      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2026/03/25/navigating-digital-sovereignty-at-the-frontier-of-transformation/"
-    },
-    {
-      "id": "https://azure.microsoft.com/en-us/blog/?p=50088",
-      "title": "Microsoft named a Leader in 2026 Gartner® Magic Quadrant™ for Integration Platform as a Service",
-      "summary": "Read why Microsoft was named a Leader for integration services in the 2026 Gartner® Magic Quadrant™ for Integration Platform as a Service. The post Microsoft named a Leader in 2026 Gartner® Magic Quadrant™ for Integration Platform as a Service appeared first on Microsoft Azure Blog .",
-      "publishedAt": "Mon, 30 Mar 2026 16:00:00 +0000",
-      "category": "Integration",
-      "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-2026-gartner-magic-quadrant-for-integration-platform-as-a-service/"
-    },
-    {
-      "id": "https://azure.microsoft.com/en-us/blog/?p=50094",
-      "title": "AI for nuclear energy: Powering an intelligent, resilient future",
-      "summary": "To break the infrastructure bottleneck and shift the industry from ambition to delivery, Microsoft is announcing an AI for nuclear collaboration with NVIDIA, to provide end-to-end tools that streamline permitting, accelerate design, and optimize operations across the industry. The post AI for nuclea",
-      "publishedAt": "Wed, 25 Mar 2026 15:00:00 +0000",
-      "category": "AI + machine learning",
-      "link": "https://www.microsoft.com/en-us/industry/blog/energy-and-resources/2026/03/24/ai-for-nuclear-energy-powering-an-intelligent-resilient-future/"
     }
   ],
   "incidentHistory": [
