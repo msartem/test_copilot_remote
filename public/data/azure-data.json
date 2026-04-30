@@ -1,23 +1,7 @@
 {
-  "fetchedAt": "2026-04-30T13:18:04.094Z",
+  "fetchedAt": "2026-04-30T19:04:27.180Z",
   "statusFeed": [],
   "blogUpdates": [
-    {
-      "id": "https://azure.microsoft.com/en-us/blog/?p=50592",
-      "title": "Microsoft named a Leader in the IDC MarketScape: Worldwide API Management 2026 Vendor Assessment",
-      "summary": "Azure API Management provides a single, Azure-native platform to govern everything from traditional APIs to AI models, tools, and agents. The post Microsoft named a Leader in the IDC MarketScape: Worldwide API Management 2026 Vendor Assessment appeared first on Microsoft Azure Blog .",
-      "publishedAt": "Tue, 28 Apr 2026 16:00:00 +0000",
-      "category": "AI + machine learning",
-      "link": "https://azure.microsoft.com/en-us/blog/microsoft-named-a-leader-in-the-idc-marketscape-worldwide-api-management-2026-vendor-assessment/"
-    },
-    {
-      "id": "https://azure.microsoft.com/en-us/blog/?p=50554",
-      "title": "Microsoft Sovereign Private Cloud scales to thousands of nodes with Azure Local",
-      "summary": "Azure Local scales Microsoft Sovereign Private Cloud, supporting AI and data workloads with full control, compliance, and disconnected operations. The post Microsoft Sovereign Private Cloud scales to thousands of nodes with Azure Local appeared first on Microsoft Azure Blog .",
-      "publishedAt": "Mon, 27 Apr 2026 18:00:00 +0000",
-      "category": "Hybrid + multicloud",
-      "link": "https://blogs.microsoft.com/blog/2026/04/27/microsoft-sovereign-private-cloud-scales-to-thousands-of-nodes-with-azure-local/"
-    },
     {
       "id": "https://azure.microsoft.com/en-us/blog/?p=50611",
       "title": "OpenAI’s GPT-5.5 in Microsoft Foundry: Frontier intelligence on an enterprise ready platform",
@@ -81,6 +65,22 @@
       "publishedAt": "Wed, 08 Apr 2026 16:00:00 +0000",
       "category": "AI + machine learning",
       "link": "https://azure.microsoft.com/en-us/blog/cloud-cost-optimization-how-to-maximize-roi-from-ai-manage-costs-and-unlock-real-business-value/"
+    },
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50113",
+      "title": "Azure IaaS: Keep critical applications running with built-in resiliency at scale",
+      "summary": "Azure IaaS provides foundational capabilities across compute, storage, and networking to help organizations stay resilient. The post Azure IaaS: Keep critical applications running with built-in resiliency at scale appeared first on Microsoft Azure Blog .",
+      "publishedAt": "Wed, 01 Apr 2026 16:00:00 +0000",
+      "category": "Compute",
+      "link": "https://azure.microsoft.com/en-us/blog/azure-iaas-keep-critical-applications-running-with-built-in-resiliency-at-scale/"
+    },
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50125",
+      "title": "Building sovereign AI at the edge: Microsoft and Armada collaborate to deliver Azure Local on Galleon modular datacenters",
+      "summary": "Explore how Microsoft and Armada bring sovereign AI to the edge with Azure Local, enabling secure, resilient workloads in disconnected and regulated environments. The post Building sovereign AI at the edge: Microsoft and Armada collaborate to deliver Azure Local on Galleon modular datacenters appear",
+      "publishedAt": "Tue, 31 Mar 2026 16:00:00 +0000",
+      "category": "Hybrid + multicloud",
+      "link": "https://azure.microsoft.com/en-us/blog/building-sovereign-ai-at-the-edge-microsoft-and-armada-collaborate-to-deliver-azure-local-on-galleon-modular-datacenters/"
     }
   ],
   "incidentHistory": [
