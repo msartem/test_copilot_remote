@@ -1,7 +1,15 @@
 {
-  "fetchedAt": "2026-05-03T07:45:35.234Z",
+  "fetchedAt": "2026-05-03T12:42:24.537Z",
   "statusFeed": [],
   "blogUpdates": [
+    {
+      "id": "https://azure.microsoft.com/en-us/blog/?p=50750",
+      "title": "Enforcing trust and transparency: Open-sourcing the Azure Integrated HSM",
+      "summary": "As cloud workloads become more agentic and AI systems handle increasingly sensitive data, trust must be engineered directly into infrastructure. Azure Integrated HSM brings hardware‑enforced key protection into Azure, extending cryptographic trust from silicon to services through verifiable and tran",
+      "publishedAt": "Thu, 30 Apr 2026 18:00:00 +0000",
+      "category": "Security",
+      "link": "https://azure.microsoft.com/en-us/blog/enforcing-trust-and-transparency-open-sourcing-the-azure-integrated-hsm/"
+    },
     {
       "id": "https://azure.microsoft.com/en-us/blog/?p=50592",
       "title": "Microsoft named a Leader in the IDC MarketScape: Worldwide API Management 2026 Vendor Assessment",
@@ -73,14 +81,6 @@
       "publishedAt": "Thu, 09 Apr 2026 15:05:00 +0000",
       "category": "DevOps",
       "link": "https://opensource.microsoft.com/blog/2026/04/09/how-drasi-used-github-copilot-to-find-documentation-bugs/"
-    },
-    {
-      "id": "https://azure.microsoft.com/en-us/blog/?p=50201",
-      "title": "Cloud Cost Optimization: How to maximize ROI from AI, manage costs, and unlock real business value",
-      "summary": "Get practical strategies and best practices to help you plan, design, and manage AI investments for sustainable value and efficiency. The post Cloud Cost Optimization: How to maximize ROI from AI, manage costs, and unlock real business value appeared first on Microsoft Azure Blog .",
-      "publishedAt": "Wed, 08 Apr 2026 16:00:00 +0000",
-      "category": "AI + machine learning",
-      "link": "https://azure.microsoft.com/en-us/blog/cloud-cost-optimization-how-to-maximize-roi-from-ai-manage-costs-and-unlock-real-business-value/"
     }
   ],
   "incidentHistory": [
